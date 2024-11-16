@@ -1,0 +1,30 @@
+.card{
+    margin: 20px;
+    background-color: #0E0F13 !important;
+    padding: 10px !important;
+    color: #fff !important;
+    position: relative;
+    min-height: 450px !important;
+    border: 1px solid #fff !important;
+    transition: 400ms ease-in-out;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+img{
+    aspect-ratio: 2/2;
+}
+h5{
+    font-size: 18px !important;
+}
+.btn{
+    border: 1px solid #000 !important;
+    width: 90% !important;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    color: #000 !important;
+    background-color: #fff !important;
+}
